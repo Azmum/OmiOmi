@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { Card } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import Card from "../components/ui/card"; // 改成相对路径
+import Button from "../components/ui/button";
+import Input from "../components/ui/input";
 
 export default function ChatPage() {
   const [messages, setMessages] = useState([
