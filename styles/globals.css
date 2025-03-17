@@ -1,0 +1,51 @@
+/* 设置全局页面背景 */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* 聊天气泡样式 */
+.chat-bubble {
+  max-width: 60%;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+/* 用户消息 */
+.user-message {
+  background-color: #cce5ff;
+  align-self: flex-end;
+}
+
+/* AI 消息 */
+.ai-message {
+  background-color: #e6e6e6;
+  align-self: flex-start;
+}
+
+/* 侧边栏样式 */
+.sidebar {
+  width: 250px;
+  background-color: #222;
+  color: white;
+  padding: 10px;
+}
+
+/* 主题自定义按钮 */
+.theme-button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.theme-button:hover {
+  background-color: #0056b3;
+}
